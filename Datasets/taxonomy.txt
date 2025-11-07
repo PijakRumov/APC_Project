@@ -1,0 +1,8 @@
+images/					Original retinal fundus images. Usually RGB, .tif format. They may look “dark” in some viewers 						because the background is black, vessels are colored.
+
+mask/					Binary field-of-view (FOV) masks, used to ignore pixels outside the circular retinal region.
+
+
+1st_manual/ and 2nd_manual/		Ground truth vessel annotations, usually as binary masks (white = vessel, black = background) 						in .tif format.
+
+test/ and training/			Separate splits for evaluation.
